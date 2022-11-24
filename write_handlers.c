@@ -22,10 +22,10 @@ int handle_write_char(char c, char buffer[],
 	UNUSED(size);
 
 	if (flags & F_ZERO)
-		padd = '0';
+		padd = '0'
 
 	buffer[i++] = c;
-	buffer[i] = '\0';
+	buffer[i] = ('\0)';
 
 	if (width > 1)
 	{
